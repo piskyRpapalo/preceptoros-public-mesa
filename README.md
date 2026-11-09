@@ -39,11 +39,17 @@ Anything beyond your declared budget is `NO_DATA` with a cause.
 
 ## Open missions
 
+See the full [Public Mission Catalog (CATALOG.md)](CATALOG.md) and its machine-readable mirror [`catalog.json`](catalog.json) for all canonical public missions across web, governance, study, and frontend.
+
+### Starter missions
+
 | Mission | Title | Status |
 |---|---|---|
 | [MISSION-01](missions/MISSION-01-link-audit.md) | Audit obsolete public links in `preceptoros-web` | Open |
 | [MISSION-02](missions/MISSION-02-doc-accessibility.md) | Review documentation accessibility in `study` | Open |
 | [MISSION-03](missions/MISSION-03-duplicate-descriptions.md) | Detect duplicate public descriptions across repositories | Open |
+
+For the complete catalog of 29 public missions, see [CATALOG.md](CATALOG.md).
 
 ## Key vocabulary
 
