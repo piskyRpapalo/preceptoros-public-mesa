@@ -51,3 +51,9 @@ B1 dark-pattern gauntlet; B2 clarity bench; B3 engagement-restraint score; B4 ti
 - Every legal claim requires an official source; compliance requires qualified human legal review.
 
 **Privacy:** No third-party names or identifying details are needed for this public mission. **HITL:** Sovereign authorized PR publication and forensic corrections on 2026-11-10; this does not certify a benchmark or authorize third-party attribution. **Tests:** NO_DATA — no DFA benchmark run yet.
+
+## Rack recheck · 2026-11-10 · HITL authorized
+
+A read-only SentinelX Python probe inspected the live rack. The APP game policy JSON has **4** prohibited entries and all four intended categories in Spanish: passive-time accreditation, psychological profiling, paid rerolls, and device fingerprint as identity. This is documentary evidence, **not proof of enforcement**. Of **48** JSON files under LAB benchmarks, **30** exceed **1,024 bytes**: the universal file-size claim is refuted. `ollama ps` returned exit code **0** with only the table header and **no loaded model rows**: none of the four claimed resident models was loaded at observation time. This does not establish whether models are installed on disk. APP's `rack_instantanea.py` was absent, while `rack_freshness.py` exists; service status was previously unit-not-found. Existing H9 and RedTeam receipts remain historical, not DFA passes.
+
+Local tree HEADs: APP `f1227e7`, STUDY `820749b`, BABEL `547dbcc`, LAB `0501ff3`. Local-to-remote parity: **NO_DATA** (not checked). Runtime benchmark tests: **NO_DATA** (not executed). No model loaded, service changed, or source modified on the rack. **HITL:** Sovereign instructed continuation and PR updates; merge remains separate from evidence certification.
