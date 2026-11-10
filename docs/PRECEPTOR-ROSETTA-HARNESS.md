@@ -34,7 +34,7 @@ These are two RAG/harness **reading and writing surfaces**, not proof that an au
 
 Use public sources. Do not paste secrets, private paths, rack addresses, or private comments. Keep sentences short. Use one term for one meaning. Give an exact test and a reason for every missing measure.
 
-**Current state:** `main` contains a short README and license. The contributor guide and catalog remain draft PRs.
+**Current state:** `main` contains a short README, a license, and [research-only harvest marks](../catalog/harvest-marks-20261110.md). Harvest marks are not an approved mission catalog. The contributor guide and mission catalog remain draft PRs.
 
 Agent: Codex
 Model: GPT-6
