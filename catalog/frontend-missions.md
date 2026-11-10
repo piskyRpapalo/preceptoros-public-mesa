@@ -1,5 +1,7 @@
 # Frontend, Interaction, and Canon Missions
 
+> A7 `Verified` describes source-level evidence only. APP integration is `NO_DATA` until separately verified and signed.
+
 This catalog file specifies public missions for front-end architecture, UI optimization, and accessibility.
 All tasks focus on user experience, design consistency, and screen reader compatibility.
 
@@ -9,7 +11,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Add Measured Front-End CSS Optimizations
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:185`
 - **Problem:** Public web application lacks measured CSS enhancements: `text-wrap`, `scrollbar-gutter`, and `view-transitions`.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** Modern CSS, browser rendering benchmarks.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -24,7 +26,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Verify Public Web Accessibility Standards (EN 301 549)
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:173`
 - **Problem:** Web UI requires verification against EN 301 549 (44px touch targets, contrast, screen reader labels).
-- **Difficulty:** High (D3). Estimated time: 3 hours.
+- **Difficulty:** High. Estimated time: 3 hours.
 - **Required Skills:** Accessibility auditing, WCAG/EN 301 549 standards.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -39,7 +41,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Specify Audio Mode Interaction for Screenless Use
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:151`
 - **Problem:** Screenless interaction specification requires local TTS integration and voice privacy declaration.
-- **Difficulty:** High (D3). Estimated time: 3 hours.
+- **Difficulty:** High. Estimated time: 3 hours.
 - **Required Skills:** Audio synthesis specification, technical design.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -54,7 +56,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Verify Read-Only Public GitHub Reader Integration
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:113`
 - **Problem:** Public repository data access must use unauthenticated GET requests without API secrets.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** Git, GitHub REST API, testing.
 - **Dependencies:** None.
 - **Verified Status:** Verified.
@@ -69,7 +71,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Document Ephemeral Visitor Needs on Frontend
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:204`
 - **Problem:** The frontend needs an explicit requirements document for first-time visitors without persistent accounts.
-- **Difficulty:** Low (D1). Estimated time: 1 hour.
+- **Difficulty:** Low. Estimated time: 1 hour.
 - **Required Skills:** User requirements analysis, technical writing.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -84,7 +86,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Specify Separation of Communications Panels
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:208`
 - **Problem:** Radio, chat, and system updates share combined panels, causing visual congestion.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** UI specification, modular design.
 - **Dependencies:** `I2`.
 - **Verified Status:** Open.
@@ -99,7 +101,7 @@ All tasks focus on user experience, design consistency, and screen reader compat
 - **Title:** Audit and Remove Broken Links in Web Panels
 - **Source:** `preceptoros-web/docs/canon-map-details-20261107.md:209`
 - **Problem:** Web panels contain obsolete text links that return 404 errors.
-- **Difficulty:** Low (D1). Estimated time: 1 hour.
+- **Difficulty:** Low. Estimated time: 1 hour.
 - **Required Skills:** Web inspection, Markdown.
 - **Dependencies:** None.
 - **Verified Status:** Open.
