@@ -9,7 +9,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Verify CI Denominator Common Base
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:34`
 - **Problem:** Test suites execute without a verified common denominator. CI can silence a failing suite without detection.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** GitHub Actions workflow syntax, Node.js test runners.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -24,7 +24,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Audit Public Documentation Links
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:40`
 - **Problem:** URLs in public READMEs, `llms.txt`, and `METHOD.md` can break over time without warning.
-- **Difficulty:** Low (D2). Estimated time: 1 hour.
+- **Difficulty:** Low. Estimated time: 1 hour.
 - **Required Skills:** Bash scripting, curl, HTTP response interpretation.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -39,7 +39,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Verify Multilingual Route Metrics
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:42`
 - **Problem:** Landing page claims nine languages, but language routes require verifiable byte metrics.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** Node.js file inspection, metrics calculation.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -54,7 +54,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Validate Machine Index Freshness
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:44`
 - **Problem:** Machine-readable index `ai-index.json` can become stale relative to repository trees.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** JSON parsing, Git tree comparison.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -69,7 +69,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Detect Stale Dated Documentation Claims
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:46`
 - **Problem:** Dated performance and architectural claims age beyond 30 days without re-verification.
-- **Difficulty:** Low (D2). Estimated time: 1 hour.
+- **Difficulty:** Low. Estimated time: 1 hour.
 - **Required Skills:** Python or Bash, regex, date parsing.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -84,7 +84,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Standardize Documentation Timestamps
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:50`
 - **Problem:** Status boards without explicit timestamps prevent temporal auditability.
-- **Difficulty:** Low (D1). Estimated time: 30 minutes.
+- **Difficulty:** Low. Estimated time: 30 minutes.
 - **Required Skills:** Markdown formatting, ISO 8601 syntax.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -99,7 +99,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Clean Duplicate Sentences in Frontend Map
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:54`
 - **Problem:** The frontend web map repeats sentences already declared in prior sections.
-- **Difficulty:** Low (D1). Estimated time: 45 minutes.
+- **Difficulty:** Low. Estimated time: 45 minutes.
 - **Required Skills:** Text analysis, Markdown editing, ASD-STE100 principles.
 - **Dependencies:** None.
 - **Verified Status:** Open.
@@ -114,7 +114,7 @@ All operations are read-only or propose-only within contributor feature branches
 - **Title:** Verify Front Door Test Suite Hydration
 - **Source:** `preceptoros-web/docs/misiones-compacta-20261108.md:58`
 - **Problem:** Front door test suites can lose test case coverage during rapid component changes.
-- **Difficulty:** Medium (D2). Estimated time: 2 hours.
+- **Difficulty:** Medium. Estimated time: 2 hours.
 - **Required Skills:** Node.js, JavaScript test execution.
 - **Dependencies:** `W-04`.
 - **Verified Status:** Open.
