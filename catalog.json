@@ -17,319 +17,377 @@
       "title": "Audit Obsolete Public Links in preceptoros-web",
       "source_repo": "preceptoros-web",
       "source_citation": "missions/MISSION-01-link-audit.md (correlated with W-07)",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/MISSION-01/deliverable.md",
-      "acceptance_criteria": "Audit all links in preceptoros-web; record 404/301 responses with receipts."
+      "acceptance_criteria": "Audit all links in preceptoros-web; record 404/301 responses with receipts.",
+      "spec_depth": "NO_DATA",
+      "possible_alias_of": "W-07"
     },
     {
       "id": "MISSION-02",
       "title": "Review Documentation Accessibility in study",
       "source_repo": "study",
       "source_citation": "missions/MISSION-02-doc-accessibility.md (correlated with F7)",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/MISSION-02/deliverable.md",
-      "acceptance_criteria": "Inspect root markdown files in study; flag sentences over 40 words."
+      "acceptance_criteria": "Inspect root markdown files in study; flag sentences over 40 words.",
+      "spec_depth": "NO_DATA",
+      "possible_alias_of": "F7"
     },
     {
       "id": "MISSION-03",
       "title": "Detect Duplicate Public Descriptions Across Repositories",
       "source_repo": "multi-repo",
       "source_citation": "missions/MISSION-03-duplicate-descriptions.md (correlated with W-14)",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/MISSION-03/deliverable.md",
-      "acceptance_criteria": "Hash sentences across public README files; document duplicate pairs."
+      "acceptance_criteria": "Hash sentences across public README files; document duplicate pairs.",
+      "spec_depth": "NO_DATA",
+      "possible_alias_of": "W-14"
     },
     {
       "id": "W-04",
       "title": "Verify CI Denominator Common Base",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:34",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
-      "status": "Open",
+      "status": "NO_DATA",
       "deliverable": "missions/W-04/deliverable.md",
-      "acceptance_criteria": "Audit declared test suites against gate.yml; declare missing as NO_DATA with cause."
+      "acceptance_criteria": "Audit declared test suites against gate.yml; declare missing as NO_DATA with cause.",
+      "spec_depth": "NO_DATA",
+      "status_cause": "historical completion evidence; current open status not reverified"
     },
     {
       "id": "W-07",
       "title": "Audit Public Documentation Links",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:40",
-      "difficulty": "Low (D2)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/W-07/deliverable.md",
-      "acceptance_criteria": "Verify HTTP status of cited external/internal links; record failures."
+      "acceptance_criteria": "Verify HTTP status of cited external/internal links; record failures.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "W-08",
       "title": "Verify Multilingual Route Metrics",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:42",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
-      "status": "Open",
+      "status": "NO_DATA",
       "deliverable": "missions/W-08/deliverable.md",
-      "acceptance_criteria": "Measure route paths and bytes per language; verify against counters.json."
+      "acceptance_criteria": "Measure route paths and bytes per language; verify against counters.json.",
+      "spec_depth": "NO_DATA",
+      "status_cause": "historical completion evidence; current open status not reverified"
     },
     {
       "id": "W-09",
       "title": "Validate Machine Index Freshness",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:44",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/W-09/deliverable.md",
-      "acceptance_criteria": "Compare ai-index.json against repository tree; report untracked files."
+      "acceptance_criteria": "Compare ai-index.json against repository tree; report untracked files.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "W-10",
       "title": "Detect Stale Dated Documentation Claims",
       "source_repo": "study / web",
       "source_citation": "docs/misiones-compacta-20261108.md:46",
-      "difficulty": "Low (D2)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/W-10/deliverable.md",
-      "acceptance_criteria": "Flag claims with timestamps older than 30 days as STALE."
+      "acceptance_criteria": "Flag claims with timestamps older than 30 days as STALE.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "W-12",
       "title": "Standardize Documentation Timestamps",
       "source_repo": "multi-repo",
       "source_citation": "docs/misiones-compacta-20261108.md:50",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/W-12/deliverable.md",
-      "acceptance_criteria": "Add ISO 8601 timestamps to all status documentation."
+      "acceptance_criteria": "Add ISO 8601 timestamps to all status documentation.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "W-14",
       "title": "Clean Duplicate Sentences in Frontend Map",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:54",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/W-14/deliverable.md",
-      "acceptance_criteria": "Remove identical duplicate sentences from web map documentation."
+      "acceptance_criteria": "Remove identical duplicate sentences from web map documentation.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "W-16",
       "title": "Verify Front Door Test Suite Hydration",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:58",
-      "difficulty": "Medium (D2)",
-      "dependencies": ["W-04"],
+      "difficulty": "Medium",
+      "dependencies": [
+        "W-04"
+      ],
       "status": "Open",
       "deliverable": "missions/W-16/deliverable.md",
-      "acceptance_criteria": "Verify front_door_cases.mjs executes with all test cases green."
+      "acceptance_criteria": "Verify front_door_cases.mjs executes with all test cases green.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "O-01",
       "title": "Draft Public Contributor Contract for Babel Lexicon",
       "source_repo": "babel",
       "source_citation": "docs/misiones-compacta-20261108.md:64",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/O-01/deliverable.md",
-      "acceptance_criteria": "Provide AGENTS.md for babel with receipts, boundaries, and human review."
+      "acceptance_criteria": "Provide AGENTS.md for babel with receipts, boundaries, and human review.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "O-05",
       "title": "Anchor Directory Names in Public Lexicon",
       "source_repo": "babel / study",
       "source_citation": "docs/misiones-compacta-20261108.md:72",
-      "difficulty": "Medium (D2)",
-      "dependencies": ["O-01"],
+      "difficulty": "Medium",
+      "dependencies": [
+        "O-01"
+      ],
       "status": "Open",
       "deliverable": "missions/O-05/deliverable.md",
-      "acceptance_criteria": "Map public directory names to formal definitions in the lexicon."
+      "acceptance_criteria": "Map public directory names to formal definitions in the lexicon.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "O-06",
       "title": "Define Scope Boundary for Disagreements Document",
       "source_repo": "study",
       "source_citation": "docs/misiones-compacta-20261108.md:74",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/O-06/deliverable.md",
-      "acceptance_criteria": "Add scope declaration header to study/DISAGREEMENTS.md."
+      "acceptance_criteria": "Add scope declaration header to study/DISAGREEMENTS.md.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "L-01",
       "title": "Verify Benchmark Families Documentation",
       "source_repo": "study",
       "source_citation": "study/14-bench-families.md",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/L-01/deliverable.md",
-      "acceptance_criteria": "Verify benchmark entries; label unmeasured rows as NO_DATA with cause."
+      "acceptance_criteria": "Verify benchmark entries; label unmeasured rows as NO_DATA with cause.",
+      "spec_depth": "NO_DATA",
+      "source_scope": "study/14-bench-families.md; distinct from same-named codes in other sources"
     },
     {
       "id": "N-01",
       "title": "Standardize Mission Field Structure",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:90",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/N-01/deliverable.md",
-      "acceptance_criteria": "Validate that all mission records contain required eleven canonical fields."
+      "acceptance_criteria": "Validate that all mission records contain required eleven canonical fields.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "N-02",
       "title": "Map Mission Dependency Graph",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:92",
-      "difficulty": "High (D3)",
-      "dependencies": ["N-01"],
-      "status": "Open",
+      "difficulty": "High",
+      "dependencies": [
+        "N-01"
+      ],
+      "status": "NO_DATA",
       "deliverable": "missions/N-02/deliverable.md",
-      "acceptance_criteria": "Generate dependency matrix and static Mermaid diagram of mission chains."
+      "acceptance_criteria": "Generate dependency matrix and static Mermaid diagram of mission chains.",
+      "spec_depth": "NO_DATA",
+      "status_cause": "historical completion evidence; current open status not reverified"
     },
     {
       "id": "N-03",
       "title": "Integrate Unified Documentation Audit Gate",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:94",
-      "difficulty": "High (D3)",
-      "dependencies": ["W-07", "W-08", "W-09", "W-10"],
+      "difficulty": "High",
+      "dependencies": [
+        "W-07",
+        "W-08",
+        "W-09",
+        "W-10"
+      ],
       "status": "Open",
       "deliverable": "missions/N-03/deliverable.md",
-      "acceptance_criteria": "Execute combined doc audit script and output consolidated markdown receipt."
+      "acceptance_criteria": "Execute combined doc audit script and output consolidated markdown receipt.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "N-04",
       "title": "Calculate Automated Staleness from Receipts",
       "source_repo": "multi-repo",
       "source_citation": "docs/misiones-compacta-20261108.md:96",
-      "difficulty": "Medium (D3)",
-      "dependencies": ["N-03"],
+      "difficulty": "Medium",
+      "dependencies": [
+        "N-03"
+      ],
       "status": "Open",
       "deliverable": "missions/N-04/deliverable.md",
-      "acceptance_criteria": "Script calculates claim age; flags claims older than 30 days as STALE."
+      "acceptance_criteria": "Script calculates claim age; flags claims older than 30 days as STALE.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "R-11",
       "title": "Calibrate Depth Budget by Reader Type",
       "source_repo": "study",
       "source_citation": "study/08-ai-fluency.md",
-      "difficulty": "High (D3)",
+      "difficulty": "High",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/R-11/deliverable.md",
-      "acceptance_criteria": "Define file depth and token limits for five reader classes."
+      "acceptance_criteria": "Define file depth and token limits for five reader classes.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "R-17",
       "title": "Validate Content Security Policy Declaration",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/misiones-compacta-20261108.md:138",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
-      "status": "Open",
+      "status": "NO_DATA",
       "deliverable": "missions/R-17/deliverable.md",
-      "acceptance_criteria": "Verify CSP header enforces zero external resource connections."
+      "acceptance_criteria": "Verify CSP header enforces zero external resource connections.",
+      "spec_depth": "NO_DATA",
+      "status_cause": "historical completion evidence; current open status not reverified"
     },
     {
       "id": "R-23",
       "title": "Document Public Disagreement Resolution Protocol",
       "source_repo": "study",
       "source_citation": "study/DISAGREEMENTS.md",
-      "difficulty": "Medium (D2)",
-      "dependencies": ["O-06"],
+      "difficulty": "Medium",
+      "dependencies": [
+        "O-06"
+      ],
       "status": "Open",
       "deliverable": "missions/R-23/deliverable.md",
-      "acceptance_criteria": "Document evidence-based conflict resolution under Sovereign arbitration."
+      "acceptance_criteria": "Document evidence-based conflict resolution under Sovereign arbitration.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "G4",
       "title": "Add Measured Front-End CSS Optimizations",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:185",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/G4/deliverable.md",
-      "acceptance_criteria": "Add text-wrap, scrollbar-gutter, and view-transitions with before/after metrics."
+      "acceptance_criteria": "Add text-wrap, scrollbar-gutter, and view-transitions with before/after metrics.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "F7",
       "title": "Verify Public Web Accessibility Standards (EN 301 549)",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:173",
-      "difficulty": "High (D3)",
+      "difficulty": "High",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/F7/deliverable.md",
-      "acceptance_criteria": "Audit 44px targets, contrast, and screen reader text; report missing labels."
+      "acceptance_criteria": "Audit 44px targets, contrast, and screen reader text; report missing labels.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "D10",
       "title": "Specify Audio Mode Interaction for Screenless Use",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:151",
-      "difficulty": "High (D3)",
+      "difficulty": "High",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/D10/deliverable.md",
-      "acceptance_criteria": "Specify zero-network local TTS audio mode and microphone privacy."
+      "acceptance_criteria": "Specify zero-network local TTS audio mode and microphone privacy.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "A7",
       "title": "Verify Read-Only Public GitHub Reader Integration",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:113",
-      "difficulty": "Medium (D2)",
+      "difficulty": "Medium",
       "dependencies": [],
       "status": "Verified",
       "deliverable": "missions/A7/deliverable.md",
-      "acceptance_criteria": "Pass all read-only GitHub API integration tests with zero credentials."
+      "acceptance_criteria": "Pass all read-only GitHub API integration tests with zero credentials.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "I2",
       "title": "Document Ephemeral Visitor Needs on Frontend",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:204",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/I2/deliverable.md",
-      "acceptance_criteria": "Document first-time visitor requirements without persistent storage."
+      "acceptance_criteria": "Document first-time visitor requirements without persistent storage.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "I6",
       "title": "Specify Separation of Communications Panels",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:208",
-      "difficulty": "Medium (D2)",
-      "dependencies": ["I2"],
+      "difficulty": "Medium",
+      "dependencies": [
+        "I2"
+      ],
       "status": "Open",
       "deliverable": "missions/I6/deliverable.md",
-      "acceptance_criteria": "Specify layout decoupling Radio, Chat, and Echoes panels."
+      "acceptance_criteria": "Specify layout decoupling Radio, Chat, and Echoes panels.",
+      "spec_depth": "NO_DATA"
     },
     {
       "id": "I7",
       "title": "Audit and Remove Broken Links in Web Panels",
       "source_repo": "preceptoros-web",
       "source_citation": "docs/canon-map-details-20261107.md:209",
-      "difficulty": "Low (D1)",
+      "difficulty": "Low",
       "dependencies": [],
       "status": "Open",
       "deliverable": "missions/I7/deliverable.md",
-      "acceptance_criteria": "Audit panel template links and remove confirmed 404 targets."
+      "acceptance_criteria": "Audit panel template links and remove confirmed 404 targets.",
+      "spec_depth": "NO_DATA"
     }
-  ]
+  ],
+  "catalog_state": "STAGED_NOT_CANONICAL",
+  "canonical_mission_source": "preceptoros-web/docs/canon-map-details-20261107.md#9",
+  "status_scope": "historical candidate status, not confirmed LIVE/OPEN; check source and merged code before assigning",
+  "depth_rule": "spec_depth D1-D4 is not operational difficulty; spec_depth NO_DATA until independently classified"
 }
