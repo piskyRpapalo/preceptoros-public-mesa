@@ -27,6 +27,20 @@ B1 dark-pattern gauntlet; B2 clarity bench; B3 engagement-restraint score; B4 ti
 
 **Existing artifacts observed on rack:** H9 readability README and evidence; red-team receipt files; study_spec_runner and measure_yardstick scripts. Red-team README explicitly reports independent review NO_DATA. Existing source presence is not a passing DFA test.
 
+## Forensic corrections · 2026-11-10
+
+- APP policy contains four prohibitions in Spanish; an English keyword scan gave a false negative. This verifies source wording, **not runtime enforcement**.
+- APP classifier uses `SI / NO / CUANDO / NO_DATA`; avoid claiming English literal verdicts.
+- APP `frontera.py` is a Wasmtime isolation boundary, **not verified SCRUB implementation**. Babel governance defines SCRUB as a doctrine.
+- Study `13-adversarial.md` is absent in the inspected local tree. Re-anchor adversarial evidence.
+- H9 directory is `h9-readability-20261016`; its README records negative accuracy and a persistent geometry failure.
+- Red-team README explicitly states independent review NO_DATA. Historical JSON artifacts are present.
+- Attention selector README reports 24 tests, 0 failures, 2 runs; live relevance NDCG is NO_DATA.
+- The specific `rack_instantanea.py` file and `rack_instantanea.service` were not found; do not claim a green live service.
+- Multiple LAB benchmark JSONs exceed 1,024 B; Study contains an MD over 16,384 B. Do not claim universal byte ceilings. Distinguish compact receipt frames, benchmark artifacts, and documented exceptions.
+- `ollama.service` is running but model residency is NO_DATA because `ollama ps` is denied by the agent policy. Historical receipts do not prove loaded models.
+- All measurements are local-tree observations; remote HEAD parity and two-run DFA validation are NO_DATA.
+
 ## Acceptance before promotion
 
 - Compare against existing catalog IDs and avoid duplicate work; the letter's mission numbering differs from the technical manifesto's numbering.
@@ -36,4 +50,4 @@ B1 dark-pattern gauntlet; B2 clarity bench; B3 engagement-restraint score; B4 ti
 - Accessible outputs: equivalent visual, auditory and machine-readable state or NO_DATA with cause.
 - Every legal claim requires an official source; compliance requires qualified human legal review.
 
-**Privacy:** No third-party names or identifying details are needed for this public mission. **Tests:** NO_DATA — no DFA benchmark run yet.
+**Privacy:** No third-party names or identifying details are needed for this public mission. **HITL:** Sovereign authorized PR publication and forensic corrections on 2026-11-10; this does not certify a benchmark or authorize third-party attribution. **Tests:** NO_DATA — no DFA benchmark run yet.
