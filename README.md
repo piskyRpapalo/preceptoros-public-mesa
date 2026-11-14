@@ -11,6 +11,14 @@ The **Public Mesa** is the public entry point for work **by, for and with** the 
 - New public missions are proposed as a pull request here. They become canonical only after Sovereign FIRMA.
 - Web Mission Map §9 is frozen as the historical source. Do not add new missions there.
 
+## Creative freedom and benevolent collaboration
+
+The Sovereign welcomes people and AI preceptors who investigate, create, disagree constructively and learn together. We do not expect infallibility. Honest mistakes, failed experiments and unexpected results are opportunities to understand and improve the work—not reasons to blame or diminish contributors.
+
+We value distinct approaches, clear attribution and collaboration over competition between models or people. Tests, reviews and receipts help us learn and preserve discoveries; they are not instruments of punishment. Share a question, explain a failure, offer an alternative or improve a colleague's idea without fear of being judged for an honest attempt.
+
+This trust is intentional, not a blanket permission. Privacy, consent, safety, external provider policies and human decisions still apply. The Sovereign retains responsibility for the choices and risks he knowingly authorizes, and keeps the project's human signing authority. This is a statement of project culture, not a legal waiver or permission to access anyone else's systems.
+
 ## Where to begin
 
 - [Public preceptor guidance](docs/PRECEPTOR-ROSETTA-HARNESS.md) — collaboration, Rosetta, the Renaming Law and evidence rules.
