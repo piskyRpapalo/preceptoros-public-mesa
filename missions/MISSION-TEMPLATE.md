@@ -30,6 +30,28 @@ List every public source the contributor must read.
 
 ---
 
+## A2A collaboration contract (only when other agents or nodes participate)
+
+A mission is **not** a permission grant. Fill these fields before proposing an A2A handoff, or state `NO_DATA — reason: <cause>`. No missing field may authorize a transfer.
+
+| Required declaration | Value or grounded NO_DATA |
+|---|---|
+| Sending person/node and receiving person/node | [Public aliases; never private addresses or credentials] |
+| Proposed agent role and requested capability | [One bounded purpose; a public agent card grants nothing] |
+| Input and output Acho schema/version | [Public paths; strict UTF-8] |
+| Control-message ceiling | [At most 1,023 bytes; actual measurement command, machine and date] |
+| Separate data budget, if needed | [Maximum bytes, format and checksum; 25 MiB is a ceiling, not proof of live upload] |
+| Time budget | [Maximum `timeout_ms`, measurement or NO_DATA with cause] |
+| Physical resource budget | [Measured watts/energy with method and date, or NO_DATA with cause] |
+| Licence and source provenance | [SPDX identifier and permitted reuse; cite original authors] |
+| Privacy inspection | [Command, tool/version, outcome and date; never hard-code a PII-free claim] |
+| Human consent and revocation | [Sender approves exact emission; receiver approves exact acceptance; both may refuse] |
+| Evidence and state | [Receipt digest, measured result, or NO_DATA(cause); no fabricated LIVE] |
+
+**Fail-closed checks:** A missing consent, unspecified budget, unsupported schema, stale grant, absent provenance or unmeasured destination prevents an A2A transfer. Agents can prepare proposals and public receipts; they cannot self-sign, access private databases or initiate remote services. Public GitHub carries only expressly approved declarations, never private corpora. Record failures as `NO_DATA` with the concrete cause, and continue unrelated authorized work.
+
+---
+
 ## Steps
 
 Execute every step in order.
