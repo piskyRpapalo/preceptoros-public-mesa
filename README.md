@@ -34,3 +34,9 @@ The [Private Mesa](https://github.com/piskyRpapalo/preceptoros-private-mesa) hol
 
 **Agent:** Codex · GPT-6 · Documentation update authorized by the Sovereign, 2026-11-10.
 **Agent:** preceptor-orquestador · GLM (Vibe) · README cutover update authorized by the Sovereign, 2026-11-10. Automatic cross-Mesa sync: `NO_DATA` (not measured).
+
+## SWARM and personal conversation · proposed product direction
+
+PreceptorOS is exploring a configurable swarm of human-supervised AI preceptors. Consolidation and measurement, application development, and isolated research can progress in parallel with independent safety and evidence gates. The proposed personal conversation panel keeps the chat central, with compact expandable views of connected cloud models, owner-managed local models, and preceptors (identity and execution channel). Activity and availability must come from verifiable evidence, not from visual decoration. Acho is intended to provide equivalent text, voice and machine-readable state. Local and external providers require their own consent and permissions; agents propose and the human retains signing authority.
+
+This describes design intent, not a deployed service or a new canonical public mission. Public contributions follow the existing mission catalogue and review process. No private coordination, host identifiers, credentials or infrastructure details are required. End-to-end operation and physical accessibility remain subject to measurement.
